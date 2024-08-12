@@ -1,0 +1,283 @@
+/* ========== MEDIA QUERY =========== */
+
+
+/* small, medium and large phones 0 to 600px */
+
+@media only screen and (max-width:600px){
+    .container {
+      width: 96%;
+    }
+    section {
+      padding: 50px 0;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    
+    header {
+    }
+    
+    nav {
+      display: block;
+    }
+    nav h4 {
+      font-size: 20px;
+      margin: 0;
+      text-align: center;
+      padding: 10px 0 0 0;
+    }
+    nav h4 span {
+      width: 100%;
+    }
+    nav ul {
+     padding: 0;
+     display: flex;
+     justify-content: center;
+    }
+    nav ul li {
+      margin: 0 5px 0 5px;
+    }
+    nav ul li a {
+      font-size: 16px;
+    }  
+    /* ==========Banner Section=========== */
+  .banner {
+    padding: 50px 0 70px;
+    text-align: center;
+    color: white;
+  }
+  .banner h3 {
+    font-style: italic;
+    margin: 0 0 10px 0;
+  }
+  .banner span {
+    width: 120px;
+    height: 3px;
+  }
+  .banner button {
+    
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  /* Event Section  */
+  
+  .event {
+    display: block;
+    width: 100%;
+    margin: 30px auto 0;
+  }
+  .event-box {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .event-box img {
+    height: 300px;
+  }
+  .event-img-mobile {
+  margin-top: 50px;
+  }
+  /* Explore Section */
+  
+  .explore-main {
+    display: block;
+  }
+  .explore {
+    width: 100%;
+  }
+  .explore p {
+    margin: 30px 0;
+  }
+  .explore a {
+    font-size: 18px;
+  }
+  /* Tours Section */
+  .tours-main {
+    display: grid;
+  }
+  .tours {
+    padding: 10px;
+  }
+  .tours p {
+    margin:20px 0;
+  }
+  .tours a {
+    letter-spacing: 2px;
+  }
+  .tours img {
+  }
+  .small {
+    height: 300px;
+    margin: 0 0 10px 0;
+  }
+  .large {
+    height: 300px;
+    margin: 0 0 10px 0;
+  }
+  /* Footer Section */
+  footer {
+    padding: 30px 10px;
+  }
+  .end-section {
+    display: grid;
+  
+    justify-content: center;
+  }
+  .icon_section {
+    margin-left: 100px;
+  }
+  .icon_section .social .fa-facebook-f {
+    font-size: 10px;
+  }
+  .icon_section .social .fa-twitter {
+    font-size: 10px;
+    margin: 5px;
+  }
+  .icon_section .social .fa-google-plus-g {
+    font-size: 10px;
+  }
+  }
+  
+  /* Tab device media query 601px to 768px */
+  
+  @media only screen and (min-width:601px) and (max-width:768px){
+    .container {
+      width: 100%;
+    }
+    section {
+      padding: 60px 0;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    nav h4 {
+      font-size: 25px;
+      margin: 0;
+      text-align: left;
+      padding: 15px;
+    }
+    nav ul {
+     padding: 0;
+     display: flex;
+     justify-content: center;
+    }
+    nav ul li {
+      margin: 10px 15px 0 5px;
+    }
+    nav ul li a {
+      font-size: 18px;
+    }  
+    /* ==========Banner Section=========== */
+  .banner {
+    padding: 100px 0 110px;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .banner span {
+    width: 140px;
+    height: 4px;
+  }
+  .banner button {
+    letter-spacing: 2px;
+    padding: 15px 30px;
+  }
+  /* Event Section  */
+  
+  .event {
+    width: 90%;
+    margin: auto;
+  }
+  .event-box {
+    width: 50%;
+    margin: 15px;
+  }
+  .event-box img {
+    height: 320px;
+  }
+  
+  /* Explore Section */
+  
+  .explore-main {
+    display: block;
+  }
+  .explore {
+    width: 80%;
+    margin: auto;
+  }
+  .explore p {
+    margin: 40px 0;
+  }
+  
+  /* Tours Section */
+  
+  .tours {
+    padding: 10px;
+  }
+  .tours p {
+    margin:20px 0;
+  }
+  .small {
+    height: 300px;
+    margin: 0 0 10px 0;
+  }
+  .large {
+    height: 350px;
+    margin: 0 0 10px 0;
+  }
+  /* Footer Section */
+  footer {
+    padding: 30px 10px;
+  }
+  .end-section {
+    display: grid;
+  
+    justify-content: center;
+  }
+  .icon_section {
+    margin-left: 125px;
+  }
+  .icon_section .social .fa-facebook-f {
+    font-size: 30px;
+  }
+  .icon_section .social .fa-twitter {
+    font-size: 30px;
+    margin: 7px;
+  }
+  .icon_section .social .fa-google-plus-g {
+    font-size: 30px;
+  }
+  }
+  
+  /* Small laptop and square monitor media query 769px to 1024px */
+  
+  @media only screen and (min-width:769px) and (max-width:1024px){
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+  }
+  /*laptop media query 1025px to 1440px */
+  
+  @media only screen and (min-width:1025px) and (max-width:1440px){
+    h1 {
+      font-size: 60px;
+    }
+  }

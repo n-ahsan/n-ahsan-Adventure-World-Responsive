@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure World</title>
+    <link rel="shortcut icon" href="./images/dawn.jpg" type="image/x-icon">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div>
+                <h4>OUTDOOR <br><span>ADVENTURE</span> </h4>
+            </div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./service.html">Service</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="#event">Action</a></li>
+                </ul>
+        </nav>
+        <!-- Banner Section -->
+        <div class="banner">
+            <h3>Explore the colourful world</h3>
+            <span></span>
+            <h1>A WONDERFUL GIFT</h1>
+            <button>Learn More</button>
+        </div>
+    </header>
+
+    <!-- Event Section -->
+
+    <section id="event" class="event-main">
+        <div class="container">
+            <h2>UPCOMING EVENTS</h2>
+            <span></span>
+            <div class="event">
+                <div class="event-box">
+                 <img src="./images/wanderer.jpg" alt="">
+                 <h4>EVEREST CAMP TREK</h4>
+                 <p>Some text will be go here.This is a section of writing.I like this section.This is a img of a child.</p>
+                 <a href="#">Learn More</a>
+                </div>
+                <div class="event-box">
+                    <img class="event-img-mobile" src="./images/woman.jpg" alt="">
+                 <h4>WALKING HOLIDAYS</h4>
+                 <p>Come text will be go here.This is a section of writing.I like this section.This is a img of a child.</p>
+                 <a href="#">Learn More >></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Section -->
+     <section class="explore-section">
+        <div class="container">
+            <div class="explore-main">
+            <div class="explore"></div>
+            <div class="explore">
+                <h1>EXPLORE THE WORLD</h1>
+                <span></span>
+                <p>This is anouthe section of image with content.I do it second time and it help me for know abou flex and backgraund image.There are some ruls in backgroun image and flex.Flex is better than float.</p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Tours Section -->
+      <section>
+        <div class="container">
+            <div class="tours-main">
+                <div class="tours">
+                    <h3>UPCOMING TOURS & DESTINATION</h3>
+                    <span></span>
+                    <p>Now i write about tour Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utsunt in culpa qui officia deserunt mollit</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="tours">
+                    <img class="small" src="./images/child.jpg" alt="">
+                    <img class="large" src="./images/fisherman.jpg" alt="">
+                </div>
+                <div class="tours">
+                    <img class="large" src="./images/sea.jpg" alt="">
+                    <img class="small" src="./images/fishermannet.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <!-- ====================== Scroll Button ===================== -->
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+      <!-- Footer Section -->
+      <footer>
+        <div class="container">
+            <div class="end-section">
+            <p>© Copyright 2024 All Rights Reserved. Web Design by Nazmul</p>
+        
+        <div class="icon_section">
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+    </footer>
+<!-- ================================ Scroll Bar JS ========================== -->
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        
+</body>
+</html>
